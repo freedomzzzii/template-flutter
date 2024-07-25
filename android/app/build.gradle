@@ -38,21 +38,66 @@ android {
         applicationId = "com.example.template_flutter"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        // minSdk = flutter.minSdkVersion
+        // targetSdk = flutter.targetSdkVersion
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
+
+        // For integration  test driver
+        // See more in https://github.com/flutter/flutter/tree/main/packages/integration_test#android-device-testing
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 28
+        // https://firebase.flutter.dev/docs/manual-installation/android/
+        multiDexEnabled true
     }
 
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.debug
         }
     }
+
+    flavorDimensions 'default'
+    productFlavors {
+        prod {
+            dimension 'default'
+            applicationId = "com.example.template_flutter"
+        }
+        dev {
+            dimension 'default'
+            versionNameSuffix '-dev'
+            applicationIdSuffix '.dev'
+            resValue "string", "app_name", "template flutter dev"
+        }
+        sit {
+            dimension 'default'
+            versionNameSuffix '-sit'
+            applicationIdSuffix '.sit'
+            resValue "string", "app_name", "template flutter sit"
+        }
+    }
 }
 
 flutter {
     source = "../.."
+}
+
+
+dependencies {
+    // Android Device Testing (firebase test lab) uses androidx's version of AndroidJUnitRunner and has androidx libraries as a dependency.
+    // see more in https://github.com/flutter/flutter/tree/master/packages/integration_test#android-device-testing
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    // For firebase
+    // see more https://firebase.flutter.dev/docs/manual-installation/android/
+    implementation 'com.android.support:multidex:1.0.3'
 }

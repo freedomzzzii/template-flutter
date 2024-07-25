@@ -6,16 +6,42 @@
             "type": "dart"
         },
         {
-            "name": "template_flutter (profile mode)",
+            "name": "dev-debug",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "args": [
+                "--flavor=dev",
+                "--dart-define=flavor=dev"
+            ]
         },
         {
-            "name": "template_flutter (release mode)",
+            "name": "dev-release",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
-        }
+            "args": [
+                "--flavor=dev",
+                "--dart-define=flavor=dev",
+                "--release"
+            ]
+        },
+        {
+            "name": "sit-debug",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor=sit",
+                "--dart-define=flavor=sit"
+            ]
+        },
+        {
+            "name": "sit-release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor=sit",
+                "--dart-define=flavor=sit",
+                "--release"
+            ]
+        },
     ]
 }
