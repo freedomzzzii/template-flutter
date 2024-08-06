@@ -1,3 +1,4 @@
 {
-  "onboard_onboard_test_title": "Hello"
+  "onboard_onboard_test_title": "Hello",
+  "onboard_onboard_test_titleWithParam": "Hello {name}"
 }
