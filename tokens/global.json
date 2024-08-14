@@ -140,18 +140,6 @@
       "dark": {
         "value": "linear-gradient(0deg, rgba( {color.gray.1200} , 0.0) 100%, rgba( {color.gray.1200} , 1.0) 65%)",
         "type": "color"
-      },
-      "green": {
-        "value": "linear-gradient(180deg, rgba( {color.brand} , 0.0) 100%, rgba( {color.brand} , 0.5) 0%)",
-        "type": "color"
-      },
-      "pink": {
-        "value": "linear-gradient(180deg, rgba( {color.pink.600} , 0.0) 100%, rgba( {color.pink.600} , 0.5) 0%)",
-        "type": "color"
-      },
-      "gray": {
-        "value": "linear-gradient(0deg, rgba( {color.gray.1000} , 0.0) 100%, rgba( {color.gray.1000} , 1.0) 65%)",
-        "type": "color"
       }
     }
   },
