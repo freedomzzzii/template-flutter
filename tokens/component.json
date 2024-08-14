@@ -1,0 +1,20 @@
+{
+  "color": {
+    "button": {
+      "bg": {
+        "primary": {
+          "value": "{color.bg.inverse.boldest}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "value": "{color.text.inverse.bold}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

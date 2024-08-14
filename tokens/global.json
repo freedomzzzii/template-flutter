@@ -1,0 +1,293 @@
+{
+  "fontFamiliesEN": {
+    "sansSerif": {
+      "value": "Poppins",
+      "type": "fontFamilies"
+    },
+    "serif": {
+      "value": "Poppins",
+      "type": "fontFamilies"
+    }
+  },
+  "fontWeights": {
+    "regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "700",
+      "type": "fontWeights"
+    },
+    "semiBold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "500",
+      "type": "fontWeights"
+    }
+  },
+  "fontFamiliesTH": {
+    "sansSerif": {
+      "value": "NotoSansThai",
+      "type": "fontFamilies"
+    },
+    "serif": {
+      "value": "BaiJamjuree",
+      "type": "fontFamilies"
+    }
+  },
+  "textDecoration": {
+    "default": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  },
+  "borderRadius": {
+    "50": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "100": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "150": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "200": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "250": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "300": {
+      "value": "24",
+      "type": "borderRadius"
+    }
+  },
+  "color": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "gray": {
+      "50": {
+        "value": "#F7F9FC",
+        "type": "color"
+      },
+      "100": {
+        "value": "#f1f6f9",
+        "type": "color"
+      },
+      "200": {
+        "value": "#e2e8eb",
+        "type": "color"
+      },
+      "300": {
+        "value": "#cbd1d3",
+        "type": "color"
+      },
+      "400": {
+        "value": "#b2b7b9",
+        "type": "color"
+      },
+      "500": {
+        "value": "#989c9f",
+        "type": "color"
+      },
+      "600": {
+        "value": "#7c7f81",
+        "type": "color"
+      },
+      "700": {
+        "value": "#616365",
+        "type": "color"
+      },
+      "800": {
+        "value": "#48494a",
+        "type": "color"
+      },
+      "900": {
+        "value": "#333435",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#252525",
+        "type": "color"
+      },
+      "1100": {
+        "value": "#191919",
+        "type": "color"
+      },
+      "1200": {
+        "value": "#121212",
+        "type": "color"
+      }
+    },
+    "gradient": {
+      "white": {
+        "value": "linear-gradient(0deg, rgba( {color.white} , 0.0) 100%, rgba( {color.white} , 1.0) 65%)",
+        "type": "color"
+      },
+      "dark": {
+        "value": "linear-gradient(0deg, rgba( {color.gray.1200} , 0.0) 100%, rgba( {color.gray.1200} , 1.0) 65%)",
+        "type": "color"
+      },
+      "green": {
+        "value": "linear-gradient(180deg, rgba( {color.brand} , 0.0) 100%, rgba( {color.brand} , 0.5) 0%)",
+        "type": "color"
+      },
+      "pink": {
+        "value": "linear-gradient(180deg, rgba( {color.pink.600} , 0.0) 100%, rgba( {color.pink.600} , 0.5) 0%)",
+        "type": "color"
+      },
+      "gray": {
+        "value": "linear-gradient(0deg, rgba( {color.gray.1000} , 0.0) 100%, rgba( {color.gray.1000} , 1.0) 65%)",
+        "type": "color"
+      }
+    }
+  },
+  "fontBase": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "fontScale": {
+    "value": "1.250",
+    "type": "fontSizes"
+  },
+  "fontSizesEN": {
+    "base": {
+      "value": "{fontBase}",
+      "type": "fontSizes"
+    },
+    "scaleUp1": {
+      "value": "roundTo({fontSizesEN.base}*{fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleUp2": {
+      "value": "roundTo( {fontSizesEN.scaleUp1}*{fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleUp3": {
+      "value": "roundTo( {fontSizesEN.scaleUp2}*{fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleDown1": {
+      "value": "roundTo( {fontSizesEN.base} / {fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleDown2": {
+      "value": "roundTo( {fontSizesEN.scaleDown1}/{fontScale})+1",
+      "type": "fontSizes"
+    },
+    "scaleDown3": {
+      "value": "roundTo( {fontSizesEN.scaleDown2}/{fontScale})",
+      "type": "fontSizes"
+    }
+  },
+  "fontSizesTH": {
+    "base": {
+      "value": "{fontBase}+1",
+      "type": "fontSizes"
+    },
+    "scaleUp1": {
+      "value": "roundTo({fontSizesTH.base}*{fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleUp2": {
+      "value": "roundTo({fontSizesTH.scaleUp1}*{fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleUp3": {
+      "value": "roundTo({fontSizesTH.scaleUp2}*{fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleDown1": {
+      "value": "roundTo({fontSizesTH.base} / {fontScale})",
+      "type": "fontSizes"
+    },
+    "scaleDown2": {
+      "value": "roundTo({fontSizesTH.scaleDown1} / {fontScale})+1",
+      "type": "fontSizes"
+    },
+    "scaleDown3": {
+      "value": "roundTo({fontSizesTH.scaleDown2}/{fontScale})",
+      "type": "fontSizes"
+    }
+  },
+  "lineHeightBase": {
+    "value": "150%",
+    "type": "lineHeights"
+  },
+  "lineHeightParagraph": {
+    "value": "175%",
+    "type": "lineHeights"
+  },
+  "boxShadow": {
+    "gray": {
+      "small": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "10",
+          "spread": "0",
+          "color": "{color.fade.darkGray.05}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "medium": {
+        "value": {
+          "x": "0",
+          "y": "3",
+          "blur": "16",
+          "spread": "0",
+          "color": "{color.fade.darkGray.05}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "large": {
+        "value": {
+          "x": "0",
+          "y": "3",
+          "blur": "24",
+          "spread": "0",
+          "color": "{color.fade.darkGray.05}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "upper": {
+        "value": {
+          "x": "0",
+          "y": "-5",
+          "blur": "18",
+          "spread": "0",
+          "color": "{color.fade.darkGray.05}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "transparent": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{color.fade.transparent}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  }
+}

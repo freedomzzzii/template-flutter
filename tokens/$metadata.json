@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "light",
+    "dark",
+    "component",
+    "english",
+    "thai"
+  ]
+}
