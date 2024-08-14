@@ -44,6 +44,54 @@
             "type": "color"
           }
         }
+      },
+      "fade": {
+        "dark": {
+          "value": "{color.fade.darkGray.50}",
+          "type": "color"
+        },
+        "bottom": {
+          "value": "{color.fade.white.0}",
+          "type": "color"
+        },
+        "positive": {
+          "0": {
+            "value": "{color.fade.green.0}",
+            "type": "color"
+          },
+          "50": {
+            "value": "{color.fade.green.50}",
+            "type": "color"
+          }
+        },
+        "negative": {
+          "0": {
+            "value": "{color.fade.pink.0}",
+            "type": "color"
+          },
+          "50": {
+            "value": "{color.fade.pink.50}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "surface": {
+      "default": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.gray.200}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.50}",
+        "type": "color"
+      },
+      "onSurface": {
+        "value": "{color.white}",
+        "type": "color"
       }
     },
     "shimmer": {
