@@ -141,6 +141,269 @@
         "value": "linear-gradient(0deg, rgba( {color.gray.1200} , 0.0) 100%, rgba( {color.gray.1200} , 1.0) 65%)",
         "type": "color"
       }
+    },
+    "fade": {
+      "darkGray": {
+        "0": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "15": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.15",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.30",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "05": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.05",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{color.gray.1200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.03",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "lightGray": {
+        "50": {
+          "value": "{color.gray.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "green": {
+        "0": {
+          "value": "{color.brand}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{color.brand}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "darkGreen": {
+        "50": {
+          "value": "{color.green.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "pink": {
+        "0": {
+          "value": "{color.pink.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{color.pink.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "red": {
+        "50": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "white": {
+        "0": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.2",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "transparent": {
+        "value": "{color.gray.1200}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.0",
+              "space": "lch"
+            }
+          }
+        }
+      }
     }
   },
   "fontBase": {
