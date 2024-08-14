@@ -78,6 +78,10 @@
       "value": "#ffffff",
       "type": "color"
     },
+    "brand": {
+      "value": "#5DF591",
+      "type": "color"
+    },
     "gray": {
       "50": {
         "value": "#F7F9FC",
