@@ -100,6 +100,24 @@
         }
       }
     },
+    "surface": {
+      "default": {
+        "value": "{color.gray.1000}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.gray.1100}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.900}",
+        "type": "color"
+      },
+      "onSurface": {
+        "value": "{color.gray.900}",
+        "type": "color"
+      }
+    },
     "shimmer": {
       "base": {
         "value": "{color.gray.900}",
