@@ -74,6 +74,16 @@
             "type": "color"
           }
         }
+      },
+      "inverse": {
+        "boldest": {
+          "value": "{color.gray.1200}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.gray.1200}",
+          "type": "color"
+        }
       }
     },
     "surface": {
