@@ -18,6 +18,20 @@
           "value": "{color.gray.400}",
           "type": "color"
         }
+      },
+      "inverse": {
+        "bold": {
+          "value": "{color.gray.50}",
+          "type": "color"
+        },
+        "mid": {
+          "value": "{color.gray.200}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.gray.500}",
+          "type": "color"
+        }
       }
     },
     "bg": {
